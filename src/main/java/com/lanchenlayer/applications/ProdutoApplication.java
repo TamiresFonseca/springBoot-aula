@@ -5,7 +5,7 @@ import com.lanchenlayer.repositories.ProdutoRepository;
 import com.lanchenlayer.services.ProdutoService;
 
 import java.util.ArrayList;
-
+@Component
 public class ProdutoApplication {
     private ProdutoRepository produtoRepository;
     private ProdutoService produtoService;
